@@ -8,11 +8,11 @@
     }
 
     @include respond-to(large) {
-        height: rem-calc(99);
+        height: rem-calc(90);
     }
 
     @include respond-to(xlarge) {
-        height: rem-calc(150);
+        height: rem-calc(114);
     }
 }
 

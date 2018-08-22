@@ -54,25 +54,41 @@
     font-weight: bold;
 }
 
-.button--top {
+.button--arrow {
     font: 0/0 a;
     min-width: 0;
     width: rem-calc(50);
     height: rem-calc(50);
     background-size: rem-calc(20);
-    background-image: url("/images/icons/arrow-up.svg");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: white;
-
-    &:hover {
-        background-image: url("/images/icons/arrow-up--white.svg");
-    }
 
     @include respond-to(medium) {
         width: rem-calc(70);
         height: rem-calc(70);
         background-size: rem-calc(30);
+    }
 
+}
+
+.button--top {
+    @extend .button--arrow;
+    background-image: url("/images/icons/arrow-up.svg");
+
+    &:hover {
+        background-image: url("/images/icons/arrow-up--white.svg");
+    }
+}
+
+.button--back {
+    @extend .button--arrow;
+    width: rem-calc(30);
+    height: rem-calc(30);
+    background-size: rem-calc(12);
+    background-image: url("/images/icons/arrow-left.svg");
+
+    &:hover {
+        background-image: url("/images/icons/arrow-left--white.svg");
     }
 }

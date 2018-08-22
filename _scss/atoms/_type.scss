@@ -1,4 +1,4 @@
-h1 {
+h1, .h1 {
     font-weight: 400;
     font-size: rem-calc(36);
     line-height: 1.5;
@@ -10,11 +10,11 @@ h1 {
     }
 
     @include respond-to(large) {
-        font-size: rem-calc(66);
+        font-size: rem-calc(60);
     }
 
     @include respond-to(xlarge) {
-        font-size: rem-calc(100);
+        font-size: rem-calc(76);
     }
 }
 
@@ -69,5 +69,8 @@ h2 {
     @include respond-to(xlarge) {
         font-size: rem-calc(30);
     }
+}
 
+p {
+    margin-bottom: rem-calc(20);    
 }

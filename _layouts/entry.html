@@ -2,5 +2,66 @@
 layout: default
 ---
 
+    
+<header class="hero wrapper">
 
-  {{ content }}
+    <a href="/" class="button button--outline button--back hero__button">Back</a>
+
+    <div class="hero__title">
+        <span class="preh1">{{ page.i-or-we }} love</span>
+        <h1>{{ page.aka }}</h1>
+    </div>
+    
+    <div class="hero__image">
+        {% if page.large-image %}
+            <img src="{{ page.large-image.url }}" alt="{{ page.large-image.alt }}">
+        {% endif %}
+        {% if page.small-image %}
+            <img src="{{ page.small-image.url }}" alt="{{ page.small-image.alt }}">
+        {% endif %}
+    </div>
+    
+</header>
+
+<div class="wrapper align-center">
+
+    {% if page.quote %}
+    <blockquote>
+        {{ page.quote | markdownify }}
+    </blockquote>
+    {% endif %}
+</div>
+    
+{% if page.carousel-images %}
+    <div class="clearfix">
+        <div class="carousel" data-carousel>
+        {% for image in page.carousel-images %}
+            <a href="{{ image.large }}" class="carousel__item"><img src="{{ image.small }}"></a></li>
+        {% endfor %}
+        </div>
+        <nav class="carousel__controls" data-carousel-controls>
+            <a href="#" class="carousel__control carousel__control--prev disabled" data-carousel-prev>Previous</a>
+            <a href="#" class="carousel__control carousel__control--next" data-carousel-next>Next</a>
+        </nav>
+    </div>
+{% endif %}
+
+
+<div class="wrapper align-center">
+
+    {{ content | markdownify }}
+
+    <span class="preh2">Love</span>
+    <h2 class="h1">{{ page.person }}</h2>
+
+    <hr>
+
+    <h2>And...</h2>
+
+    <form action="#" method="post" class="form">
+        <input type="text" placeholder="Start typing a name or scroll down to see more..." class="input" data-autocomplete data-autocomplete-options="/data/people.json">
+    </form>
+
+
+</main>
+

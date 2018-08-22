@@ -23,14 +23,31 @@
         max-height: 100vh;
     }
 
-    @include respond-to(medium) {
-        float: left;
-        max-width: 65%;
+    img + img {
+        width: 68%;
+        margin-top: rem-calc(-50);
+        margin-left: rem-calc(10);
     }
 
     @include respond-to(xlarge) {
         margin-left: 0;
     }
+}
+
+.hero__image--home {
+
+    @include respond-to(medium) {
+        float: left;
+        max-width: 65%;
+    }
+    
+}
+
+.hero__button {
+    position: absolute;
+    left: rem-calc(20);
+    top: 0;
+    z-index: 3;
 }
 
 .hero__title {

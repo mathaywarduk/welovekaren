@@ -27,7 +27,7 @@ blockquote {
     }
 
     p {
-        font-size: rem-calc(15);
+        font-size: rem-calc(18);
         margin: rem-calc(0 5);
 
         @include respond-to(small) {

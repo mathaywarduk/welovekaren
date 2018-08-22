@@ -79,13 +79,11 @@ $(document).ready( function() {
     // SCROLL TO //
     ///////////////
 
-    $("[data-scroll-to]").on("click", function(e) {
+    $("[data-scroll-top]").on("click", function(e) {
         e.preventDefault();
-        var element = $($(this).attr("href"));
-        var offsetTop = element.offset().top;
 
         $("html, body").animate({
-            scrollTop: offsetTop
+            scrollTop: 0
         }, 200);
     });
 
@@ -93,7 +91,7 @@ $(document).ready( function() {
     // SHOW ON SCROLL //
     ////////////////////
 
-    $(window).on("scroll", function() {
+    function showOnScroll() {
         var scrollPosition = $(this).scrollTop();
         var element = $("[data-scroll-display]");
         var showAt = element.data("scrollDisplay");
@@ -103,6 +101,16 @@ $(document).ready( function() {
         } else {
             element.hide();
         }
+    }
+
+    showOnScroll($(this), $("[data-scroll-display]").eq(0));
+
+    $(window).on("scroll", function() {
+        showOnScroll($(this), $("[data-scroll-display]").eq(0));
+    });
+
+    $(window).on("resize", function() {
+        showOnScroll($(this), $("[data-scroll-display]").eq(0));
     });
 
 
