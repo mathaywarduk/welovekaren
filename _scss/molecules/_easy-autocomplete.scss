@@ -1,4 +1,15 @@
+.easy-autocomplete {
+    position: relative;
+}
+
 .easy-autocomplete-container {
+
+    @include respond-to(medium) {
+        position: absolute;
+        width: 100%;
+        top: rem-calc(50);
+    }
+
 
     ul {
         list-style: none;
@@ -8,11 +19,9 @@
         border-top: none;
         font-family: $body;
         display: none;
+        background-color: white;
     }
 
-    li {
-
-    }
 
 }
 

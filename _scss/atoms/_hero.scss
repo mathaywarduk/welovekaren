@@ -1,6 +1,15 @@
 .hero {
     position: relative;
     @include clearfix();
+    margin-bottom: rem-calc(30);
+
+    @include respond-to(medium) {
+        margin-bottom: rem-calc(50);
+    }
+
+    @include respond-to(xlarge) {
+        margin-bottom: rem-calc(70);
+    }
 }
 
 .hero__image {
@@ -17,6 +26,10 @@
     @include respond-to(medium) {
         float: left;
         max-width: 65%;
+    }
+
+    @include respond-to(xlarge) {
+        margin-left: 0;
     }
 }
 

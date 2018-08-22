@@ -8,7 +8,12 @@ blockquote {
         font-family: $titles;
         font-size: rem-calc(36);
         position: absolute;
-        top: rem-calc(14);
+        top: rem-calc(3);
+
+        @include respond-to(medium) {
+            font-size: rem-calc(48);
+            top: rem-calc(5);
+        }
     }
 
     &:before {
@@ -23,8 +28,9 @@ blockquote {
 
     p {
         font-size: rem-calc(15);
+        margin: rem-calc(0 5);
 
-        @include respond-to(medium) {
+        @include respond-to(small) {
             font-size: rem-calc(20);
         }
 

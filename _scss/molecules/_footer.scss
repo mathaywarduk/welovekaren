@@ -5,4 +5,14 @@ footer {
     @include respond-to(medium) {
         margin-top: rem-calc(50);
     }
+
+    a {
+        color: white;
+        transition: opacity 200ms;
+
+        &:hover,
+        &:focus {
+            opacity: 0.8;
+        }
+    }
 }

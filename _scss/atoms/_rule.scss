@@ -9,8 +9,11 @@ hr {
     background-position: center center;
     margin: rem-calc(30 0);
 
+    @include respond-to(medium) {
+        margin: rem-calc(50 0);
+    }
+
     @include respond-to(large) {
         height: rem-calc(17);
-        margin: rem-calc(50 0);
     }
 }

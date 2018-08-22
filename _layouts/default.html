@@ -13,14 +13,16 @@
 
 </head>
 
-<body>
+<body id="top">
 
     {{ content }}
 
-    <!-- {% include list.html %} -->
+    {% include list.html %}
+
+    <a href="#top" class="button button--outline button--top sticky sticky-b sticky-r" data-scroll-to data-scroll-display="50" style="display: none;">Back to top</a>
 
     <footer class="island island--black align-center trim pad-10">
-        <p class="text-color--white"><strong>Built with &#10084; by James and Mat.</strong></p>
+        <p class="text-color--white"><strong>Built with &#10084; by <a href="/james">James</a> and <a href="/mat">Mat</a>.</strong></p>
     </footer>
     
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

@@ -8,7 +8,7 @@
     border-bottom: rem-calc(4) solid palette("pink", "dark");
     transition: all 200ms;
 
-    @include respond-to(medium) {
+    @include respond-to(small) {
         font-size: rem-calc(24);
         padding: rem-calc(10);
         min-width: rem-calc(200);
@@ -17,8 +17,7 @@
         padding: rem-calc(20);
     }
 
-    &:hover,
-    &:visited {
+    &:hover {
         background-color: palette("pink", "dark");
         color: white;
     }
@@ -31,8 +30,9 @@
     text-decoration: none;
     padding: rem-calc(5);
 
-    @include respond-to(medium) {
+    @include respond-to(small) {
         font-size: rem-calc(18);
+        padding: rem-calc(10);
     }
 }
 
@@ -42,7 +42,7 @@
     display: block;
     text-decoration: underline;
 
-    @include respond-to(medium) {
+    @include respond-to(small) {
         font-size: rem-calc(28);
     }
 }
@@ -52,4 +52,27 @@
     border-top: rem-calc(1) solid palette("pink", "dark");
     border-right: rem-calc(1) solid palette("pink", "dark");
     font-weight: bold;
+}
+
+.button--top {
+    font: 0/0 a;
+    min-width: 0;
+    width: rem-calc(50);
+    height: rem-calc(50);
+    background-size: rem-calc(20);
+    background-image: url("/images/icons/arrow-up.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+
+    &:hover {
+        background-image: url("/images/icons/arrow-up--white.svg");
+    }
+
+    @include respond-to(medium) {
+        width: rem-calc(70);
+        height: rem-calc(70);
+        background-size: rem-calc(30);
+
+    }
 }

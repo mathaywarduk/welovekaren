@@ -1,0 +1,12 @@
+.sticky {
+    position: fixed;
+    z-index: 9;
+}
+
+.sticky-r {
+    right: 0;
+}
+
+.sticky-b {
+    bottom: rem-calc(39); // footer is 39px high
+}

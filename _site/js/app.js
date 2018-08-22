@@ -75,6 +75,38 @@ $(document).ready( function() {
         autocompleteElement.easyAutocomplete(autocompleteOptions);
     });
 
+    ///////////////
+    // SCROLL TO //
+    ///////////////
+
+    $("[data-scroll-to]").on("click", function(e) {
+        e.preventDefault();
+        var element = $($(this).attr("href"));
+        var offsetTop = element.offset().top;
+
+        $("html, body").animate({
+            scrollTop: offsetTop
+        }, 200);
+    });
+
+    ////////////////////
+    // SHOW ON SCROLL //
+    ////////////////////
+
+    $(window).on("scroll", function() {
+        var scrollPosition = $(this).scrollTop();
+        var element = $("[data-scroll-display]");
+        var showAt = element.data("scrollDisplay");
+
+        if (scrollPosition >= showAt) {
+            element.show();
+        } else {
+            element.hide();
+        }
+    });
+
+
+
 
 
 });
