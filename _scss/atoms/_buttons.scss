@@ -1,0 +1,55 @@
+.button {
+    display: inline-block;
+    text-align: center;
+    font-size: rem-calc(18);
+    min-width: rem-calc(145);
+    padding: rem-calc(10);
+    border-left: rem-calc(4) solid palette("pink", "dark");
+    border-bottom: rem-calc(4) solid palette("pink", "dark");
+    transition: all 200ms;
+
+    @include respond-to(medium) {
+        font-size: rem-calc(24);
+        padding: rem-calc(10);
+        min-width: rem-calc(200);
+        border-left-width: rem-calc(6);
+        border-bottom-width: rem-calc(6);
+        padding: rem-calc(20);
+    }
+
+    &:hover,
+    &:visited {
+        background-color: palette("pink", "dark");
+        color: white;
+    }
+}
+
+.button--solid {
+    background-color: palette("pink");
+    color: white;
+    font-size: rem-calc(13);
+    text-decoration: none;
+    padding: rem-calc(5);
+
+    @include respond-to(medium) {
+        font-size: rem-calc(18);
+    }
+}
+
+.button--solid-name {
+    font-size: rem-calc(18);
+    font-weight: bold;
+    display: block;
+    text-decoration: underline;
+
+    @include respond-to(medium) {
+        font-size: rem-calc(28);
+    }
+}
+
+.button--outline {
+    color: palette("pink", "dark");
+    border-top: rem-calc(1) solid palette("pink", "dark");
+    border-right: rem-calc(1) solid palette("pink", "dark");
+    font-weight: bold;
+}

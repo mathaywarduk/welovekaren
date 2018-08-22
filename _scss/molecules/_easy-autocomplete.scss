@@ -1,0 +1,25 @@
+.easy-autocomplete-container {
+
+    ul {
+        list-style: none;
+        text-align: left;
+        padding: rem-calc(5 15);
+        border: 1px solid palette("grey", "light");
+        border-top: none;
+        font-family: $body;
+        display: none;
+    }
+
+    li {
+
+    }
+
+}
+
+.eac-item {
+    a {
+        color: black;
+        padding: rem-calc(3 0);
+        display: block;
+    }
+}

@@ -1,0 +1,14 @@
+.input {
+    background-color: white;
+    border: 1px solid palette("grey", "light");
+    border-radius: rem-calc(2);
+    color: black;
+    padding: rem-calc(15 20 15 20);
+    display: block;
+    width: 100%;
+    font-family: $body;
+
+    &::placeholder {
+        color: palette("grey", "dark");
+    }
+}

@@ -1,0 +1,73 @@
+h1 {
+    font-weight: 400;
+    font-size: rem-calc(36);
+    line-height: 1.5;
+    font-family: $titles;
+    font-style: italic;
+
+    @include respond-to(small) {
+        font-size: rem-calc(48);
+    }
+
+    @include respond-to(large) {
+        font-size: rem-calc(66);
+    }
+
+    @include respond-to(xlarge) {
+        font-size: rem-calc(100);
+    }
+}
+
+.preh1 {
+    font-size: rem-calc(15);
+    display: inline-block;
+    font-weight: 300;
+    margin-bottom: rem-calc(10);
+
+    @include respond-to(small) {
+        font-size: rem-calc(24);
+    }
+    @include respond-to(large) {
+        font-size: rem-calc(30);
+    }
+    @include respond-to(xlarge) {
+        font-size: rem-calc(36);
+    }
+}
+
+h2 {
+    font-weight: 400;
+    font-size: rem-calc(24);
+    line-height: 1.5;
+    font-family: $titles;
+    font-style: italic;
+    margin-bottom: rem-calc(10);
+
+    @include respond-to(small) {
+        font-size: rem-calc(36);
+    }
+    @include respond-to(large) {
+        font-size: rem-calc(48);
+    }
+    @include respond-to(xlarge) {
+        font-size: rem-calc(60);
+    }
+}
+
+.preh2 {
+    font-size: rem-calc(13);
+    display: inline-block;
+    font-weight: 300;
+    margin-bottom: rem-calc(10);
+
+    @include respond-to(small) {
+        font-size: rem-calc(18);
+    }
+    @include respond-to(large) {
+        font-size: rem-calc(24);
+    }
+    @include respond-to(xlarge) {
+        font-size: rem-calc(30);
+    }
+
+}

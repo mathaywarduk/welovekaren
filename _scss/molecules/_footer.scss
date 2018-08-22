@@ -1,0 +1,8 @@
+footer {
+    clear: both;
+    margin-top: rem-calc(30);
+
+    @include respond-to(medium) {
+        margin-top: rem-calc(50);
+    }
+}

@@ -1,0 +1,16 @@
+hr {
+    height: rem-calc(7);
+    background-color: none;
+    border: none;
+    width: 100%;
+    background-image: url("/images/hr.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin: rem-calc(30 0);
+
+    @include respond-to(large) {
+        height: rem-calc(17);
+        margin: rem-calc(50 0);
+    }
+}

@@ -1,0 +1,9 @@
+.wrapper {
+    max-width: rem-calc(1440);
+    margin: 0 auto;
+    padding: rem-calc(0 20);
+
+    @include respond-to(xlarge) {
+        padding: rem-calc(0 70);
+    }
+}

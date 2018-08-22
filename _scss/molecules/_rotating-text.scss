@@ -1,0 +1,21 @@
+.rotating-text {
+    width: auto;
+    height: rem-calc(54);
+    overflow: hidden;
+
+    @include respond-to(small) {
+        height: rem-calc(72);
+    }
+
+    @include respond-to(large) {
+        height: rem-calc(99);
+    }
+
+    @include respond-to(xlarge) {
+        height: rem-calc(150);
+    }
+}
+
+.rotating-text__item {
+    display: block;
+}

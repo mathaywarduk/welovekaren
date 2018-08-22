@@ -1,0 +1,35 @@
+blockquote {
+    text-align: center;
+    padding: rem-calc(0 40);
+    position: relative;
+
+    &:before,
+    &:after {
+        font-family: $titles;
+        font-size: rem-calc(36);
+        position: absolute;
+        top: rem-calc(14);
+    }
+
+    &:before {
+        content: '\201C';
+        left: rem-calc(10);
+    }
+    
+    &:after {
+        content: '\201D';
+        right: rem-calc(10);
+    }
+
+    p {
+        font-size: rem-calc(15);
+
+        @include respond-to(medium) {
+            font-size: rem-calc(20);
+        }
+
+        @include respond-to(large) {
+            font-size: rem-calc(24);
+        }
+    }
+}

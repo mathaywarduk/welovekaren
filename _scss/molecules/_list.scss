@@ -1,0 +1,127 @@
+.list {
+}
+
+.list__item {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.list__overlay {
+    width: 41%;
+    position: absolute;
+    top: 0;
+}
+
+.list__image--primary {
+    width: 70%;
+}
+
+.list__image--secondary {
+    width: 100%;
+    margin-bottom: rem-calc(10);
+}
+
+.list__button {
+    margin-bottom: rem-calc(10);
+}
+
+.list__quote {
+    padding-top: rem-calc(10);
+    max-width: rem-calc(320);
+    margin: 0 auto;
+}
+
+.list__item--primary-left {
+    text-align: left;
+
+    .list__image--primary {
+        margin-top: rem-calc(10);
+    }
+
+    .list__overlay {
+        right: 0;
+    }
+
+    &.list__item--landscape {
+
+        .list__overlay {
+            right: rem-calc(-20);
+        }
+
+        .list__button {
+            margin-left: rem-calc(-20);
+        }
+    }
+    
+}
+
+.list__item--primary-right {
+    text-align: right;
+
+    .list__overlay {
+        margin-top: rem-calc(10);
+    }
+
+    &.list__item--landscape {
+
+        .list__overlay {
+            left: rem-calc(-20);
+        }
+
+        .list__button {
+            margin-right: rem-calc(-20);
+        }
+    }
+
+    &.list__item--portrait {
+        .list__overlay {
+            right: calc(51% - #{rem-calc(20)});
+        }
+
+        .list__button {
+            position: absolute;
+            bottom: rem-calc(10);
+            left: rem-calc(-10);
+        }
+    }
+}
+
+.list__item--landscape {
+
+    .list__image--primary {
+        width: 70%;
+    }
+
+    .list__overlay {
+        width: 41%;
+    }
+}
+
+.list__item--portrait {
+
+    .list__image--primary {
+        width: 51%;
+    }
+
+    .list__overlay {
+        width: 46%;
+    }
+}
+
+.list__item--mixed {
+
+    .list__image--primary {
+        width: 46%;
+    }
+
+    .list__overlay {
+        width: 60%;
+        margin-top: 5vw;
+
+        @include respond-to(small) {
+            margin-top: rem-calc(50);
+        }
+    }
+}
+
