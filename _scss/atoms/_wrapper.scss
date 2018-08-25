@@ -10,12 +10,29 @@
 
 .wrapper--large {
     @include respond-to(large) {
-        max-width: rem-calc(1440);
+        max-width: rem-calc(960);
         margin: 0 auto;
         padding: rem-calc(0 20);
     }
 
     @include respond-to(xlarge) {
         padding: rem-calc(0 70);
+    }
+}
+
+.wrapper--content {
+    @include respond-to(medium) {
+        width: 65%;
+        max-width: rem-calc(480);
+    }
+    
+    @include respond-to(large) {
+        width: 70%;
+        max-width: rem-calc(740);
+    }
+    
+    @include respond-to(xlarge) {
+        width: 60%;
+        max-width: rem-calc(860);
     }
 }

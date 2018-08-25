@@ -3,6 +3,10 @@ blockquote {
     padding: rem-calc(0 40);
     position: relative;
 
+    @include respond-to(large) {
+        margin: rem-calc(80 0);
+    }
+
     &:before,
     &:after {
         font-family: $titles;
@@ -27,15 +31,36 @@ blockquote {
     }
 
     p {
-        font-size: rem-calc(18);
-        margin: rem-calc(0 5);
+        font-size: rem-calc(20);
+        margin-bottom: 0;
 
-        @include respond-to(small) {
-            font-size: rem-calc(20);
+        @include respond-to(medium) {
+            font-size: rem-calc(30);
         }
 
         @include respond-to(large) {
-            font-size: rem-calc(24);
+            font-size: rem-calc(36);
         }
+
+        @include respond-to(xlarge) {
+            font-size: rem-calc(48);
+        }
+    }
+
+    .list & {
+
+        p {
+            font-size: rem-calc(18);
+            margin: rem-calc(0 5);
+
+            @include respond-to(small) {
+                font-size: rem-calc(20);
+            }
+
+            @include respond-to(large) {
+                font-size: rem-calc(24);
+            }
+        }
+
     }
 }

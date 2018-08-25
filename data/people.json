@@ -1,3 +1,5 @@
+// @TODO: pull from people.yml
+
 [ 
   {"name": "James Hayward", "url": "/people/james"}, 
   {"name": "Caroline Hayward", "url": "/people/caroline"}, 

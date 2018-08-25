@@ -72,5 +72,23 @@ h2 {
 }
 
 p {
-    margin-bottom: rem-calc(20);    
+    margin-bottom: rem-calc(20);
+    font-size: rem-calc(15);
+
+    @include respond-to(small) {
+        font-size: rem-calc(15);        
+    }  
+
+    @include respond-to(medium) {
+        font-size: rem-calc(24);
+    }  
+
+    @include respond-to(large) {
+        font-size: rem-calc(30);
+        margin-bottom: rem-calc(40);
+    }  
+
+    @include respond-to(xlarge) {
+        font-size: rem-calc(36);
+    }  
 }

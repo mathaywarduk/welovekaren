@@ -1,94 +1,31 @@
 <div class="list wrapper--large">
-    <div class="list__item list__item--left">
-        <div class="list__media">
-            <img src="/images/landscape-image.jpg" alt="Karen &amp; Kerry" class="list__image">
-            <div class="list__media-sec">
-                <img src="/images/landscape-image.jpg" alt="Karen &amp; Kerry" class="list__image">
-                <a href="/kerry" class="button button--solid list__button">
-                    more love from<br>
-                    <span class="button--solid-name">Kerry</span>
-                </a>
-            </div>
-        </div>
-        <blockquote class="list__quote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit.</p>
-        </blockquote>
-    </div>
 
-    <hr>
-    
-    <div class="list__item list__item--right">
-        <div class="list__media">
-            <img src="/images/landscape-image.jpg" alt="Karen &amp; Kerry" class="list__image">
-            <div class="list__media-sec">
-                <img src="/images/landscape-image.jpg" alt="Karen &amp; Kerry" class="list__image">
-                <a href="/kerry" class="button button--solid list__button">
-                    more love from<br>
-                    <span class="button--solid-name">Kerry</span>
-                </a>
-            </div>
-        </div>
-        <blockquote class="list__quote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit.</p>
-        </blockquote>
-    </div>
+    {% for person in site.data.people.people limit:5 %}
+        {% unless person[0] == page.person-id %}
 
-    <hr>
-    <div class="list__item list__item--left">
-        <div class="list__media">
-            <img src="/images/landscape-image.jpg" alt="Karen &amp; Kerry" class="list__image">
-            <div class="list__media-sec">
-                <img src="/images/landscape-image.jpg" alt="Karen &amp; Kerry" class="list__image">
-                <a href="/kerry" class="button button--solid list__button">
-                    more love from<br>
-                    <span class="button--solid-name">Kerry</span>
-                </a>
+        <div class="list__item list__item--{% cycle 'left', 'right' %}">
+            <div class="list__media">
+                <img src="{{ person[1].large-image.url }}" alt="{{ person[1].large-image.alt }}" class="list__image">
+                <div class="list__media-sec">
+                    <img src="{{ person[1].small-image.url }}" alt="{{ person[1].small-image.alt }}" class="list__image">
+                    <a href="/people/{{ person[0] }}" class="button button--solid list__button">
+                        more love from<br>
+                        <span class="button--solid-name">{{ person[1].firstname }}</span>
+                    </a>
+                </div>
             </div>
+            <blockquote class="list__quote">
+                <p>{{ person[1].quote }}</p>
+            </blockquote>
         </div>
-        <blockquote class="list__quote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit.</p>
-        </blockquote>
-    </div>
 
-    <hr>
-    
-    <div class="list__item list__item--right">
-        <div class="list__media">
-            <img src="/images/landscape-image.jpg" alt="Karen &amp; Kerry" class="list__image">
-            <div class="list__media-sec">
-                <img src="/images/landscape-image.jpg" alt="Karen &amp; Kerry" class="list__image">
-                <a href="/kerry" class="button button--solid list__button">
-                    more love from<br>
-                    <span class="button--solid-name">Kerry</span>
-                </a>
-            </div>
-        </div>
-        <blockquote class="list__quote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit.</p>
-        </blockquote>
-    </div>
-
-    <hr>
-    <div class="list__item list__item--left">
-        <div class="list__media">
-            <img src="/images/landscape-image.jpg" alt="Karen &amp; Kerry" class="list__image">
-            <div class="list__media-sec">
-                <img src="/images/landscape-image.jpg" alt="Karen &amp; Kerry" class="list__image">
-                <a href="/kerry" class="button button--solid list__button">
-                    more love from<br>
-                    <span class="button--solid-name">Kerry</span>
-                </a>
-            </div>
-        </div>
-        <blockquote class="list__quote">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit.</p>
-        </blockquote>
-    </div>
-
-    <hr>
-    
+        <hr>
+        {% endunless %}
+    {% endfor %}
 
     <div class="align-center">
         <a href="#" class="button button--outline">Who else loves me?</a>
     </div>
+
+
 </div>

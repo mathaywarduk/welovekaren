@@ -1,0 +1,395 @@
+people:
+  james:
+    name: "James Hayward"
+    firstname: "James"
+    url: "/people/james"
+    aka: "Mum"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        -   
+          large: "/images/landscape-image.jpg"
+          small: "/images/landscape-image.jpg"
+          title: "Karen &amp; Kerry"
+        -   
+          large: "/images/landscape-image.jpg"
+          small: "/images/landscape-image.jpg"
+          title: "Karen &amp; Kerry"
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        -   
+          large: "/images/landscape-image.jpg"
+          small: "/images/landscape-image.jpg"
+          title: "Karen &amp; Kerry"
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  mat:
+    name: "Mat Hayward"
+    firstname: "Mat"
+    url: "/people/mat"
+    aka: "Mum"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  rod:
+    name: "Rod Hayward"
+    firstname: "Rod"
+    url: "/people/rod"
+    aka: "Kaz"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  kerry:
+    name: "Kerry Hayward"
+    firstname: "Kerry"
+    url: "/people/kerry"
+    aka: "Mama H"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  caroline:
+    name: "Caroline Hayward"
+    firstname: "Caroline"
+    url: "/people/caroline"
+    aka: "Karen"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  joah:
+    name: "Joah Hayward"
+    firstname: "Joah"
+    url: "/people/joah"
+    aka: "Nanny"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  seren:
+    name: "Seren Hayward"
+    firstname: "Seren"
+    url: "/people/seren"
+    aka: "Nanny"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  linda-james:
+    name: "Linda &amp; James Harvey"
+    firstname: "Linda &amp; James"
+    url: "/people/linda-james"
+    aka: "Karen"
+    i-or-we: "We"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  felicity:
+    name: "Felicity Hayward"
+    firstname: "Felicity"
+    url: "/people/felicity"
+    aka: "Aunty Karen"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  katrina:
+    name: "Katrina Hayward"
+    firstname: "Katrina"
+    url: "/people/katrina"
+    aka: "Aunty Karen"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  david-amajit:
+    name: "David &amp; Amajit Morrow"
+    firstname: "David &amp; Amajit"
+    url: "/people/david-amajit"
+    aka: "Karen"
+    i-or-we: "We"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  roxy:
+    name: "Roxy Morrow"
+    firstname: "Roxy"
+    url: "/people/roxy"
+    aka: "Aunty Karen"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  trish:
+    name: "Trish"
+    firstname: "Trish"
+    url: "/people/trish"
+    aka: "Aunty Karen"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  emma:
+    name: "Emma"
+    firstname: "Emma"
+    url: "/people/emma"
+    aka: "Karen"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  sue-shaun:
+    name: "Sue &amp; Shaun Baker"
+    firstname: "Sue &amp; Shaun"
+    url: "/people/sue-shaun"
+    aka: "Karen"
+    i-or-we: "We"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  becky:
+    name: "Becky Bonneteau"
+    firstname: "Becky"
+    url: "/people/becky"
+    aka: "Aunty Karen"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  judith:
+    name: "Judith Weston"
+    firstname: "Judith"
+    url: "/people/judith"
+    aka: "Aunty Karen"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  mum:
+    name: "Jeanne Morrow"
+    firstname: "Mum"
+    url: "/people/mum"
+    aka: "Karen"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  dad:
+    name: "Andy Morrow"
+    firstname: "Dad"
+    url: "/people/dad"
+    aka: "Karen"
+    i-or-we: "I"
+    large-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    small-image:
+        url: "/images/landscape-image.jpg"
+        alt: "Karen &amp; Kerry"
+    carousel-images:
+        -   
+          large: "/images/portrait-image.jpg"
+          small: "/images/portrait-image.jpg"
+          title: "Karen &amp; Kerry"
+        - 
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."

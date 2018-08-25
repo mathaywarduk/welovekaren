@@ -18,27 +18,56 @@
     position: relative;
     margin-left: rem-calc(-20);
 
+    @include respond-to(xlarge) {
+        width: auto;
+    }
+
     img {
-        max-width: 100%;
-        max-height: 100vh;
+        width: 100%;
+
+        @include respond-to(large) {
+            width: calc(100% - #{rem-calc(100)});
+        }
     }
 
     img + img {
         width: 68%;
         margin-top: rem-calc(-50);
         margin-left: rem-calc(10);
-    }
 
-    @include respond-to(xlarge) {
-        margin-left: 0;
+        @include respond-to(small) {
+            width: 48%;
+        }
+
+        @include respond-to(medium) {
+            width: 36%;
+        }
+
+        @include respond-to(large) {
+            width: 27%;
+        }
+
+        @include respond-to(xlarge) {
+            width: 36%;
+        }
     }
 }
 
 .hero__image--home {
 
+    img {
+        width: auto;
+        max-width: 100%;
+        max-height: 100vh;
+    }
+
     @include respond-to(medium) {
         float: left;
         max-width: 65%;
+    }
+
+    @include respond-to(xlarge) {
+        margin-left: 0;
     }
     
 }
@@ -62,6 +91,21 @@
     }
 
     @include respond-to(medium) {
+        margin-bottom: rem-calc(-40);
+    }
+
+    @include respond-to(large) {
+        margin-bottom: rem-calc(-50);
+    }
+
+    @include respond-to(xlarge) {
+        margin-bottom: rem-calc(-70);
+    }
+}
+
+.hero__title--home {
+
+    @include respond-to(medium) {
         position: absolute;
         z-index: 2;
         width: auto;
@@ -74,6 +118,7 @@
     @include respond-to(large) {
         top: rem-calc(100);
     }
+
 }
 
 .hero__content {

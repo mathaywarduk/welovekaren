@@ -5,7 +5,15 @@
     padding: 0;
     white-space: nowrap;
     overflow-x: auto;
-    margin: rem-calc(20 0 40);
+    margin: rem-calc(30 0 40);
+
+    @include respond-to(small) {
+        margin: rem-calc(60 0 60);
+    }
+
+    @include respond-to(xlarge) {
+        margin: rem-calc(100 0 100);
+    }
 }
 
 .carousel__item {
@@ -18,6 +26,18 @@
 
     img {
         height: rem-calc(142);
+
+        @include respond-to(medium) {
+            height: rem-calc(217);
+        }
+
+        @include respond-to(large) {
+            height: rem-calc(284);
+        }
+
+        @include respond-to(xlarge) {
+            height: rem-calc(346);
+        }
     }
 }
 
