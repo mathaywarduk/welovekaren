@@ -1,0 +1,8 @@
+---
+permalink: /data/people.json
+---
+[ 
+{% for person in site.data.people.people %}
+  {"name": "{{ person[1].name }}", "url": "{{ person[1].url }}"}{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
