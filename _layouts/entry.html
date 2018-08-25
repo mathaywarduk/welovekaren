@@ -37,9 +37,7 @@ layout: default
 {% if person.carousel-images %}
     <div class="clearfix">
         <div class="carousel" data-carousel>
-        {% for image in person.carousel-images %}
-            <a href="{{ image.large }}" class="carousel__item" title="{{ image.title }}" data-carousel-item><img src="{{ image.small }}"></a></li>
-        {% endfor %}
+        {% for image in person.carousel-images %}<a href="{{ image.large }}" class="carousel__item" title="{{ image.title }}" data-carousel-item><img src="{{ image.small }}"></a>{% endfor %}
         </div>
     </div>
 {% endif %}

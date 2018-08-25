@@ -123,9 +123,15 @@ $(document).ready( function() {
     });
 
 
-    //////////////
-    // CAROUSEL //
-    //////////////
+    ///////////////
+    // CAROUSEL  //
+    ///////////////
+
+
+
+    ///////////////////////
+    // CAROUSEL LIGHTBOX //
+    ///////////////////////
 
     $('[data-carousel]').Chocolat({
         imageSelector: '[data-carousel-item]',
