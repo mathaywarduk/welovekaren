@@ -1,5 +1,3 @@
-// @TODO: pull from people.yml
-
 [ 
   {"name": "James Hayward", "url": "/people/james"}, 
   {"name": "Caroline Hayward", "url": "/people/caroline"}, 
@@ -8,15 +6,16 @@
   {"name": "Kerry Hayward", "url": "/people/kerry"}, 
   {"name": "Joah Hayward", "url": "/people/joah"}, 
   {"name": "Seren Hayward", "url": "/people/seren"}, 
-  {"name": "Sue & Shaun Baker", "url": "/people/sue-and-shaun"}, 
-  {"name": "Linda & James Harvey", "url": "/people/linda-and-james"}, 
+  {"name": "Sue & Shaun Baker", "url": "/people/sue-shaun"}, 
+  {"name": "Linda & James Harvey", "url": "/people/linda-james"}, 
   {"name": "Felicity Harvey", "url": "/people/felicity"}, 
   {"name": "Katrina Harvey", "url": "/people/katrina"}, 
-  {"name": "David & Amajit Morrow", "url": "/people/david-and-amajit"}, 
+  {"name": "David & Amajit Morrow", "url": "/people/david-amajit"}, 
   {"name": "Trish", "url": "/people/trish"}, 
   {"name": "Emma", "url": "/people/emma"}, 
   {"name": "Roxy", "url": "/people/roxy"}, 
   {"name": "Becky", "url": "/people/becky"}, 
   {"name": "Judith", "url": "/people/judith"}, 
-  {"name": "Mum & Dad", "url": "/people/mum-and-dad"}
+  {"name": "Mum", "url": "/people/mum"}
+  {"name": "Dad", "url": "/people/dad"}
 ]
