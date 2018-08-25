@@ -22,30 +22,30 @@
 
 
 
-// DEBUG CODE
-body:after {
-    content: "XS";
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    z-index: 10;
-    bottom: 0;
-    right: 0;
-    padding: rem-calc(20);
+// // DEBUG CODE
+// body:after {
+//     content: "XS";
+//     color: white;
+//     background-color: rgba(0, 0, 0, 0.5);
+//     position: fixed;
+//     z-index: 10;
+//     bottom: 0;
+//     right: 0;
+//     padding: rem-calc(20);
 
-    @include respond-to(small) {
-        content: "SM";
-    }
+//     @include respond-to(small) {
+//         content: "SM";
+//     }
 
-    @include respond-to(medium) {
-        content: "MD";
-    }
+//     @include respond-to(medium) {
+//         content: "MD";
+//     }
 
-    @include respond-to(large) {
-        content: "LG";
-    }
+//     @include respond-to(large) {
+//         content: "LG";
+//     }
 
-    @include respond-to(xlarge) {
-        content: "XL";
-    }
-}
+//     @include respond-to(xlarge) {
+//         content: "XL";
+//     }
+// }
