@@ -1,5 +1,0 @@
-Todo:
-
-- Tiny slider for inline carousel
-- "Who loves me?" - load more
-- "That's it" message
