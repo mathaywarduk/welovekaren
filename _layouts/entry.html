@@ -36,15 +36,11 @@ layout: default
     
 {% if person.carousel-images %}
     <div class="clearfix">
-        <div class="carousel">
+        <div class="carousel" data-carousel>
         {% for image in person.carousel-images %}
             <a href="{{ image.large }}" class="carousel__item" title="{{ image.title }}" data-carousel-item><img src="{{ image.small }}"></a></li>
         {% endfor %}
         </div>
-        <!-- <nav class="carousel__controls" data-carousel-controls>
-            <a href="#" class="carousel__control carousel__control--prev disabled" data-carousel-prev>Previous</a>
-            <a href="#" class="carousel__control carousel__control--next" data-carousel-next>Next</a>
-        </nav> -->
     </div>
 {% endif %}
 

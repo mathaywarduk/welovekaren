@@ -1,0 +1,17 @@
+<div class="list__item list__item--{% cycle 'left', 'right' %}">
+    <div class="list__media">
+        <img src="{{ personData.large-image.url }}" alt="{{ personData.large-image.alt }}" class="list__image">
+        <div class="list__media-sec">
+            <img src="{{ personData.small-image.url }}" alt="{{ personData.small-image.alt }}" class="list__image">
+            <a href="/people/{{ personName }}" class="button button--solid list__button">
+                more love from<br>
+                <span class="button--solid-name">{{ personData.firstname }}</span>
+            </a>
+        </div>
+    </div>
+    <blockquote class="list__quote">
+        <p>{{ personData.quote }}</p>
+    </blockquote>
+</div>
+
+<hr>

@@ -1,6 +1,12 @@
 
 $(document).ready( function() {
 
+    //////////////
+    // JS/NO JS //
+    //////////////
+
+    $("html").addClass("js").removeClass("no-js");
+
     ///////////////////
     // ROTATING TEXT //
     ///////////////////
@@ -121,11 +127,31 @@ $(document).ready( function() {
     // CAROUSEL //
     //////////////
 
-    $('.carousel').Chocolat({
+    $('[data-carousel]').Chocolat({
         imageSelector: '[data-carousel-item]',
         imageSize: 'contain',
         loop: true,
-        
+    });
+
+    ///////////////
+    // LOAD MORE //
+    ///////////////
+
+    var loadIteration = 1;
+
+    $("[data-load-more]").on("click", function(e) {
+        e.preventDefault();
+
+        var totalIterations = $(this).data("loadIterations");
+
+        $("[data-load-group=" + loadIteration + "]").show();
+
+        if (loadIteration >= totalIterations) {
+            $(this).hide();
+        }
+
+        loadIteration++;
+
     });
 
 
