@@ -73,11 +73,7 @@ h2 {
 
 p {
     margin-bottom: rem-calc(20);
-    font-size: rem-calc(15);
-
-    @include respond-to(small) {
-        font-size: rem-calc(15);        
-    }  
+    font-size: rem-calc(16);
 
     @include respond-to(medium) {
         font-size: rem-calc(24);
@@ -91,4 +87,12 @@ p {
     @include respond-to(xlarge) {
         font-size: rem-calc(36);
     }  
+}
+
+p.large {
+
+    @include respond-to(small) {
+        font-size: rem-calc(20);        
+    }  
+
 }

@@ -1,0 +1,13 @@
+.no-js .no-js--hidden {
+    display: none;
+}
+
+.js {
+    .js--hidden {
+        display: none;
+    }
+
+    .js--visible {
+        display: block;
+    }
+}

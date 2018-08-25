@@ -21,6 +21,10 @@
 }
 
 .wrapper--content {
+    @include respond-to(small) {
+        width: 85%;
+    }
+    
     @include respond-to(medium) {
         width: 65%;
         max-width: rem-calc(480);
@@ -35,4 +39,9 @@
         width: 60%;
         max-width: rem-calc(860);
     }
+}
+
+.wrapper--50 {
+    width: 50%;
+    margin: 0 auto;
 }
