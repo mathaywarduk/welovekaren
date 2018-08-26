@@ -47,7 +47,7 @@ layout: default
 
     {{ content | markdownify }}
 
-    <span class="preh2">Love</span>
+    <span class="preh2">{% if person.signoff %} {{ person.signoff }}{% else %}love{% endif %}</span>
     <h2 class="h1">{{ person.firstname }}</h2>
 
     <hr>
