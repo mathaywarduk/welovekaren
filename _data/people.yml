@@ -6,33 +6,9 @@ people:
     aka: "Mum"
     i-or-we: "I"
     signoff: "Love you always"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
-        -   
-          large: "/images/landscape-image.jpg"
-          small: "/images/landscape-image.jpg"
-          title: "Karen &amp; Kerry"
-        -   
-          large: "/images/landscape-image.jpg"
-          small: "/images/landscape-image.jpg"
-          title: "Karen &amp; Kerry"
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
-        -   
-          large: "/images/landscape-image.jpg"
-          small: "/images/landscape-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 19
+    large-image-id: 13
+    small-image-id: 7
     quote: "I love you,&nbsp;probably..."
 
   mat:
@@ -41,18 +17,11 @@ people:
     url: "/people/mat"
     aka: "Mum"
     i-or-we: "I"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+    signoff: "Love you loads"
+    carousel-images-count: 20
+    large-image-id: 7
+    small-image-id: 12
+    quote: "Thanks Mum for always being there whenever I've fucked up my life!"
 
   rod:
     name: "Rod Hayward"
@@ -60,17 +29,9 @@ people:
     url: "/people/rod"
     aka: "Kaz"
     i-or-we: "I"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 22
+    large-image-id: 5
+    small-image-id: 19
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
 
   kerry:
@@ -79,17 +40,9 @@ people:
     url: "/people/kerry"
     aka: "Mama H"
     i-or-we: "I"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 13
+    large-image-id: 12
+    small-image-id: 2
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
 
   caroline:
@@ -99,17 +52,9 @@ people:
     aka: "Karen"
     i-or-we: "I"
     signoff: Love always
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 5
+    large-image-id: 4
+    small-image-id: 5
     quote: "I appreciate you more than you will ever&nbsp;know."
 
   joah:
@@ -119,17 +64,9 @@ people:
     aka: "Nanny"
     signoff: Love from
     i-or-we: "I"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 16
+    large-image-id: 11
+    small-image-id: 1
     quote: "You are lovely and give good&nbsp;hugs"
 
   seren:
@@ -139,17 +76,9 @@ people:
     aka: "Nanny"
     i-or-we: "I"
     signoff: Lots of love
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 16
+    large-image-id: 1
+    small-image-id: 14
     quote: "I love doing each others&nbsp;hair"
 
   linda-james:
@@ -159,17 +88,9 @@ people:
     aka: "Karen"
     i-or-we: "We"
     signoff: "Lots of love"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 11
+    large-image-id: 5
+    small-image-id: 6
     quote: "Hope you have a lovely 60th birthday"
 
   felicity:
@@ -179,17 +100,9 @@ people:
     aka: "Aunty Karen"
     i-or-we: "I"
     signoff: "Lots of Love"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 5
+    large-image-id: 5
+    small-image-id: 1
     quote: "Thanks for being a great Aunty &amp; making us&nbsp;laugh."
 
   katrina:
@@ -199,17 +112,9 @@ people:
     aka: "Aunty Karen"
     i-or-we: "I"
     signoff: "Love you lots like jelly tots"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 7
+    large-image-id: 1
+    small-image-id: 5
     quote: "Hope you have a lovely&nbsp;day."
 
   david-amarjit:
@@ -218,138 +123,84 @@ people:
     url: "/people/david-amarjit"
     aka: "Karen"
     i-or-we: "We"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 5
+    large-image-id: 5
+    small-image-id: 3
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
 
-  roxy:
-    name: "Roxy Morrow"
-    firstname: "Roxy"
-    url: "/people/roxy"
-    aka: "Aunty Karen"
-    i-or-we: "I"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+  # roxy:
+  #   name: "Roxy Morrow"
+  #   firstname: "Roxy"
+  #   url: "/people/roxy"
+  #   aka: "Aunty Karen"
+  #   i-or-we: "I"
+  #   large-image:
+  #       url: "/images/landscape-image.jpg"
+  #       alt: ""
+  #   small-image:
+  #       url: "/images/landscape-image.jpg"
+  #       alt: ""
+  #   carousel-images:
+  #       -   
+  #         large: "/images/portrait-image.jpg"
+  #         small: "/images/portrait-image.jpg"
+  #         title: ""
+  #   quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
 
   harts:
-    name: "The Harts"
+    name: "Emma, Trish and the Harts"
     firstname: "The Harts"
     url: "/people/harts"
     aka: "Karen"
     i-or-we: "We"
     signoff: Loves and hugs
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 4
+    large-image-id: 1
+    small-image-id: 2
     quote: "Thank you for putting up with the chaos we all brought when together in one&nbsp;place!"
 
-  baker-bonneteau:
+  bakers:
     name: "Sue &amp; Shaun Baker, Becky &amp; Jeremy Bonneteau"
     firstname: "Bakers &amp; Bonneteaus"
     signoff: "Love from the"
-    url: "/people/baker-bonneteau"
+    url: "/people/bakers"
     aka: "Karen"
     i-or-we: "We"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 12
+    large-image-id: 6
+    small-image-id: 10
     quote: "Great memories"
 
   hayward-westons:
-    name: "Haywards and Westons"
+    name: "Gwen, Judith, Roo and Finn"
     firstname: "Gwen, Jude, Roo and Finn"
     url: "/people/hayward-westons"
     aka: "Karen"
     i-or-we: "We"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 12
+    large-image-id: 6
+    small-image-id: 10
     quote: "Wishing you the best of birthdays"
 
   mum-dad:
-    name: "Jeanne &amp; Andy Morrow"
+    name: "Mum &amp; Dad"
     firstname: "Mum &amp; Dad"
     url: "/people/mum-dad"
     aka: "Karen"
     i-or-we: "We"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 9
+    large-image-id: 7
+    small-image-id: 4
     quote: "Your Mum and I are very proud of you for all your achievements."
 
   rudi:
     name: "Rudi Hayward"
-    firstname: "Rudi"
+    firstname: "Rudi Dudi"
     url: "/people/rudi"
     aka: "Nanny and treats"
     i-or-we: "I"
-    large-image:
-        url: "/images/people/rudi/rudi.jpg"
-        alt: "Rudi"
-    carousel-images:
-        -   
-          large: "/images/people/rudi/rudi-nanny.jpg"
-          small: "/images/people/rudi/thumbnails/rudi-nanny.jpg"
-          title: "Rudi and Nanny"
-        -   
-          large: "/images/people/rudi/rudi-nanny-2.jpg"
-          small: "/images/people/rudi/thumbnails/rudi-nanny-2.jpg"
-          title: "Rudi and Nanny"
-        -   
-          large: "/images/people/rudi/rudi-at-work.jpg"
-          small: "/images/people/rudi/thumbnails/rudi-at-work.jpg"
-          title: "That time you took me to your work and I slept all day!"
+    carousel-images-count: 4
+    large-image-id: 1
     quote: "I lick the treats you havva me.&nbsp;Fanks!"
 
   kathryn:
@@ -358,17 +209,8 @@ people:
     url: "/people/kathryn"
     aka: "Karen"
     i-or-we: "I"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 1
+    large-image-id: 1
     quote: "You are such a great friend despite the&nbsp;distance!"
 
   jane:
@@ -377,15 +219,16 @@ people:
     url: "/people/jane"
     aka: "Karen"
     i-or-we: "I"
-    large-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    small-image:
-        url: "/images/landscape-image.jpg"
-        alt: "Karen &amp; Kerry"
-    carousel-images:
-        -   
-          large: "/images/portrait-image.jpg"
-          small: "/images/portrait-image.jpg"
-          title: "Karen &amp; Kerry"
+    carousel-images-count: 2
+    large-image-id: 1
     quote: "From the best secretary&nbsp;ever!"
+
+  swans:
+    name: "The Swans"
+    firstname: "The Swans"
+    url: "/people/swans"
+    aka: "Karen"
+    i-or-we: "We"
+    carousel-images-count: 2
+    large-image-id: 1
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."

@@ -1,8 +1,10 @@
 <div class="list__item list__item--{% cycle 'left', 'right' %}">
     <div class="list__media">
-        <img src="{{ personData.large-image.url }}" alt="{{ personData.large-image.alt }}" class="list__image">
+        <img src="/images/people/{{ personName }}/{{ personName | capitalize }}_{{ personData.large-image-id }}.jpg" class="list__image">
         <div class="list__media-sec">
-            <img src="{{ personData.small-image.url }}" alt="{{ personData.small-image.alt }}" class="list__image">
+            {% if personData.small-image-id %}
+            <img src="/images/people/{{ personName }}/{{ personName | capitalize }}_{{ personData.small-image-id }}.jpg" class="list__image">
+            {% endif %}
             <a href="/people/{{ personName }}" class="button button--solid list__button">
                 more love from<br>
                 <span class="button--solid-name">{{ personData.firstname }}</span>

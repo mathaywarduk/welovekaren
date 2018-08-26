@@ -37,7 +37,24 @@
     .list__image {
         margin-bottom: rem-calc(10);
         margin-top: 0;
-        width: 100%;
+        width: auto;
+        max-height: rem-calc(109);
+
+        @include respond-to(small) {
+            max-height: rem-calc(129);
+        }
+
+        @include respond-to(medium) {
+            max-height: rem-calc(109);
+        }
+
+        @include respond-to(large) {
+            max-height: rem-calc(159);
+        }
+
+        @include respond-to(xlarge) {
+            max-height: rem-calc(139);
+        }
     }
 }
 

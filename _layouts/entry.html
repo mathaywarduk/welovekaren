@@ -15,11 +15,11 @@ layout: default
     </div>
     
     <div class="hero__image">
-        {% if person.large-image %}
-            <img src="{{ person.large-image.url }}" alt="{{ person.large-image.alt }}">
+        {% if person.large-image-id %}
+            <img src="/images/people/{{ page.person-id }}/{{ page.person-id | capitalize }}_{{ person.large-image-id }}.jpg">
         {% endif %}
-        {% if person.small-image %}
-            <img src="{{ person.small-image.url }}" alt="{{ person.small-image.alt }}">
+        {% if person.small-image-id %}
+            <img src="/images/people/{{ page.person-id }}/thumbnails/{{ page.person-id | capitalize }}_{{ person.small-image-id }}.jpg">
         {% endif %}
     </div>
     
@@ -34,10 +34,10 @@ layout: default
     {% endif %}
 </div>
     
-{% if person.carousel-images %}
+{% if person.carousel-images-count %}
     <div class="clearfix">
         <div class="carousel" data-carousel>
-        {% for image in person.carousel-images %}<a href="{{ image.large }}" class="carousel__item" title="{{ image.title }}" data-carousel-item><img src="{{ image.small }}"></a>{% endfor %}
+        {% for i in (1..person.carousel-images-count) %}<a href="/images/people/{{ page.person-id }}/{{ page.person-id | capitalize }}_{{ i }}.jpg" class="carousel__item" data-carousel-item><img src="/images/people/{{ page.person-id }}/thumbnails/{{ page.person-id | capitalize }}_{{ i }}.jpg"></a>{% endfor %}
         </div>
     </div>
 {% endif %}

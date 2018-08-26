@@ -110,7 +110,8 @@
     background-size: cover;
 }
 .chocolat-wrapper .chocolat-bottom{
-    position:absolute;
+    display: none;
+    /*position:absolute;
     bottom:0;
     left: 0;
     right: 0;
@@ -124,7 +125,7 @@
     padding-right: 15px;
     background: #D24477;
     text-align: right;
-    margin-top: 10px;
+    margin-top: 10px;*/
 }
 .chocolat-wrapper .chocolat-set-title{
     display: inline-block;
