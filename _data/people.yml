@@ -6,10 +6,11 @@ people:
     url: "/people/rod"
     aka: "Kaz"
     i-or-we: "I"
+    signoff: "Burundi Musta, aka"
     carousel-images-count: 22
     large-image-id: 5
     small-image-id: 19
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+    quote: "I still can't believe you married me some 38 odd years ago."
 
   mat:
     name: "Mat Hayward"
