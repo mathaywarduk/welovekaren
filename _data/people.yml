@@ -1,15 +1,15 @@
 people:
-  james:
-    name: "James Hayward"
-    firstname: "James"
-    url: "/people/james"
-    aka: "Mum"
+
+  rod:
+    name: "Rod Hayward"
+    firstname: "Rod"
+    url: "/people/rod"
+    aka: "Kaz"
     i-or-we: "I"
-    signoff: "Love you always"
-    carousel-images-count: 19
-    large-image-id: 13
-    small-image-id: 7
-    quote: "I love you,&nbsp;probably..."
+    carousel-images-count: 22
+    large-image-id: 5
+    small-image-id: 19
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
 
   mat:
     name: "Mat Hayward"
@@ -23,27 +23,17 @@ people:
     small-image-id: 12
     quote: "Thanks Mum for always being there whenever I've fucked up my life!"
 
-  rod:
-    name: "Rod Hayward"
-    firstname: "Rod"
-    url: "/people/rod"
-    aka: "Kaz"
+  james:
+    name: "James Hayward"
+    firstname: "James"
+    url: "/people/james"
+    aka: "Mum"
     i-or-we: "I"
-    carousel-images-count: 22
-    large-image-id: 5
-    small-image-id: 19
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
-
-  kerry:
-    name: "Kerry Hayward"
-    firstname: "Kerry"
-    url: "/people/kerry"
-    aka: "Mama H"
-    i-or-we: "I"
-    carousel-images-count: 13
-    large-image-id: 12
-    small-image-id: 2
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+    signoff: "Love you always"
+    carousel-images-count: 19
+    large-image-id: 13
+    small-image-id: 7
+    quote: "I love you,&nbsp;probably..."
 
   caroline:
     name: "Caroline Hayward"
@@ -56,6 +46,17 @@ people:
     large-image-id: 4
     small-image-id: 5
     quote: "I appreciate you more than you will ever&nbsp;know."
+
+  kerry:
+    name: "Kerry Hayward"
+    firstname: "Kerry"
+    url: "/people/kerry"
+    aka: "Mama H"
+    i-or-we: "I"
+    carousel-images-count: 13
+    large-image-id: 12
+    small-image-id: 2
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
 
   joah:
     name: "Joah Hayward"
@@ -81,6 +82,17 @@ people:
     small-image-id: 14
     quote: "I love doing each others&nbsp;hair"
 
+  mum-dad:
+    name: "Mum &amp; Dad"
+    firstname: "Mum &amp; Dad"
+    url: "/people/mum-dad"
+    aka: "Karen"
+    i-or-we: "We"
+    carousel-images-count: 9
+    large-image-id: 7
+    small-image-id: 4
+    quote: "Your Mum and I are very proud of you for all your achievements."
+
   linda-james:
     name: "Linda &amp; James Harvey"
     firstname: "Linda &amp; James"
@@ -93,30 +105,6 @@ people:
     small-image-id: 6
     quote: "Hope you have a lovely 60th birthday"
 
-  felicity:
-    name: "Felicity Hayward"
-    firstname: "Fliss"
-    url: "/people/felicity"
-    aka: "Aunty Karen"
-    i-or-we: "I"
-    signoff: "Lots of Love"
-    carousel-images-count: 5
-    large-image-id: 5
-    small-image-id: 1
-    quote: "Thanks for being a great Aunty &amp; making us&nbsp;laugh."
-
-  katrina:
-    name: "Katrina Hayward"
-    firstname: "Katrina"
-    url: "/people/katrina"
-    aka: "Aunty Karen"
-    i-or-we: "I"
-    signoff: "Love you lots like jelly tots"
-    carousel-images-count: 7
-    large-image-id: 1
-    small-image-id: 5
-    quote: "Hope you have a lovely&nbsp;day."
-
   david-amarjit:
     name: "David &amp; Amarjit Morrow"
     firstname: "David &amp; Amarjit"
@@ -127,25 +115,6 @@ people:
     large-image-id: 5
     small-image-id: 3
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
-
-  # roxy:
-  #   name: "Roxy Morrow"
-  #   firstname: "Roxy"
-  #   url: "/people/roxy"
-  #   aka: "Aunty Karen"
-  #   i-or-we: "I"
-  #   large-image:
-  #       url: "/images/landscape-image.jpg"
-  #       alt: ""
-  #   small-image:
-  #       url: "/images/landscape-image.jpg"
-  #       alt: ""
-  #   carousel-images:
-  #       -   
-  #         large: "/images/portrait-image.jpg"
-  #         small: "/images/portrait-image.jpg"
-  #         title: ""
-  #   quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
 
   harts:
     name: "Emma, Trish and the Harts"
@@ -158,6 +127,30 @@ people:
     large-image-id: 1
     small-image-id: 2
     quote: "Thank you for putting up with the chaos we all brought when together in one&nbsp;place!"
+
+  felicity:
+    name: "Felicity Harvey"
+    firstname: "Fliss"
+    url: "/people/felicity"
+    aka: "Aunty Karen"
+    i-or-we: "I"
+    signoff: "Lots of Love"
+    carousel-images-count: 5
+    large-image-id: 5
+    small-image-id: 1
+    quote: "Thanks for being a great Aunty &amp; making us&nbsp;laugh."
+
+  katrina:
+    name: "Katrina Harvey"
+    firstname: "Katrina"
+    url: "/people/katrina"
+    aka: "Aunty Karen"
+    i-or-we: "I"
+    signoff: "Love you lots like jelly tots"
+    carousel-images-count: 7
+    large-image-id: 1
+    small-image-id: 5
+    quote: "Hope you have a lovely&nbsp;day."
 
   bakers:
     name: "Sue &amp; Shaun Baker, Becky &amp; Jeremy Bonneteau"
@@ -181,17 +174,6 @@ people:
     large-image-id: 6
     small-image-id: 10
     quote: "Wishing you the best of birthdays"
-
-  mum-dad:
-    name: "Mum &amp; Dad"
-    firstname: "Mum &amp; Dad"
-    url: "/people/mum-dad"
-    aka: "Karen"
-    i-or-we: "We"
-    carousel-images-count: 9
-    large-image-id: 7
-    small-image-id: 4
-    quote: "Your Mum and I are very proud of you for all your achievements."
 
   rudi:
     name: "Rudi Hayward"
@@ -222,13 +204,3 @@ people:
     carousel-images-count: 2
     large-image-id: 1
     quote: "From the best secretary&nbsp;ever!"
-
-  swans:
-    name: "The Swans"
-    firstname: "The Swans"
-    url: "/people/swans"
-    aka: "Karen"
-    i-or-we: "We"
-    carousel-images-count: 2
-    large-image-id: 1
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
