@@ -5,6 +5,7 @@
     white-space: nowrap;
     overflow-x: auto;
     margin: rem-calc(30 0 40);
+    text-align: center;
 
     @include respond-to(small) {
         margin: rem-calc(60 0 60);

@@ -393,3 +393,27 @@ people:
           title: "Karen &amp; Kerry"
         - 
     quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+
+  rudi:
+    name: "Rudi Hayward"
+    firstname: "Rudi"
+    url: "/people/rudi"
+    aka: "Treats"
+    i-or-we: "I"
+    large-image:
+        url: "/images/people/rudi/rudi.jpg"
+        alt: "Rudi"
+    carousel-images:
+        -   
+          large: "/images/people/rudi/rudi-nanny.jpg"
+          small: "/images/people/rudi/thumbnails/rudi-nanny.jpg"
+          title: "Rudi and Nanny"
+        -   
+          large: "/images/people/rudi/rudi-nanny-2.jpg"
+          small: "/images/people/rudi/thumbnails/rudi-nanny-2.jpg"
+          title: "Rudi and Nanny"
+        -   
+          large: "/images/people/rudi/rudi-at-work.jpg"
+          small: "/images/people/rudi/thumbnails/rudi-at-work.jpg"
+          title: "That time you took me to your work and I slept all day!"
+    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."

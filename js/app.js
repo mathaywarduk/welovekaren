@@ -122,13 +122,6 @@ $(document).ready( function() {
         showOnScroll($(this), $("[data-scroll-display]").eq(0));
     });
 
-
-    ///////////////
-    // CAROUSEL  //
-    ///////////////
-
-
-
     ///////////////////////
     // CAROUSEL LIGHTBOX //
     ///////////////////////
@@ -136,7 +129,7 @@ $(document).ready( function() {
     $('[data-carousel]').Chocolat({
         imageSelector: '[data-carousel-item]',
         imageSize: 'contain',
-        loop: true,
+        loop: true
     });
 
     ///////////////
