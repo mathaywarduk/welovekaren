@@ -1,6 +1,6 @@
 <div class="list wrapper--large">
 
-    {% for person in site.data.people.people limit:5 %}
+    {% for person in site.data.people.people %}
         {% unless person[0] == page.person-id %}
 
             {% assign personName = person[0] %}
@@ -11,55 +11,8 @@
         {% endunless %}
     {% endfor %}
 
-    <div data-load-group="1" class="js--hidden">
-        {% for person in site.data.people.people limit:5 offset:5 %}
-            {% unless person[0] == page.person-id %}
-
-                {% assign personName = person[0] %}
-                {% assign personData = person[1] %}
-
-                {% include list-item.html %}
-
-            {% endunless %}
-        {% endfor %}
-    </div>
-
-    <div data-load-group="2" class="js--hidden">
-        {% for person in site.data.people.people limit:5 offset:10 %}
-            {% unless person[0] == page.person-id %}
-
-                {% assign personName = person[0] %}
-                {% assign personData = person[1] %}
-
-                {% include list-item.html %}
-
-            {% endunless %}
-        {% endfor %}
-    </div>
-
-    <div data-load-group="3" class="js--hidden">
-        {% for person in site.data.people.people limit:5 offset:15 %}
-            {% unless person[0] == page.person-id %}
-
-                {% assign personName = person[0] %}
-                {% assign personData = person[1] %}
-
-                {% include list-item.html %}
-
-            {% endunless %}
-        {% endfor %}
-
         <div class="align-center wrapper--50">
             <h2>That's it!</h2>
             <p class="large">We’re sure there are more people who love you, we just haven’t spoken to them!</p>
         </div>
-    </div>
-
-    <div class="align-center no-js--hidden">
-        <a href="#" class="button button--outline" data-load-more data-load-iterations="3">Who else loves me?</a>
-    </div>
-
-
-
-
 </div>
