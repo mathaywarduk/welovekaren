@@ -43,21 +43,22 @@ people:
     aka: "Karen"
     i-or-we: "I"
     signoff: Love always
-    carousel-images-count: 5
-    large-image-id: 4
-    small-image-id: 5
+    carousel-images-count: 17
+    large-image-id: 5
+    small-image-id: 8
     quote: "I appreciate you more than you will ever&nbsp;know."
 
   kerry:
     name: "Kerry Hayward"
-    firstname: "Kerry"
+    firstname: "Kezza"
     url: "/people/kerry"
     aka: "Mama H"
+    signoff: "Love you to the moon &amp; back"
     i-or-we: "I"
     carousel-images-count: 13
     large-image-id: 12
     small-image-id: 2
-    quote: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla imperdiet magna ut lorem imperdiet hendrerit."
+    quote: "My favourite thing is how you always greet us with a big smile no matter what day or time it is."
 
   joah:
     name: "Joah Hayward"
