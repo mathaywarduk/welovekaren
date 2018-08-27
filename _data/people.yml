@@ -10,7 +10,7 @@ people:
     carousel-images-count: 22
     large-image-id: 5
     small-image-id: 19
-    quote: "I still can't believe you married me some 38 odd years ago."
+    quote: "I still can't believe you married me some 38 odd years&nbsp;ago."
 
   mat:
     name: "Mat Hayward"
@@ -22,7 +22,7 @@ people:
     carousel-images-count: 20
     large-image-id: 7
     small-image-id: 12
-    quote: "Thanks Mum for always being there whenever I've fucked up my life!"
+    quote: "Thanks Mum for always being there whenever I've fucked up my&nbsp;life!"
 
   james:
     name: "James Hayward"
@@ -58,7 +58,7 @@ people:
     carousel-images-count: 13
     large-image-id: 12
     small-image-id: 2
-    quote: "My favourite thing is how you always greet us with a big smile no matter what day or time it is."
+    quote: "My favourite thing is how you always greet us with a big smile no matter what day or time it&nbsp;is."
 
   joah:
     name: "Joah Hayward"
@@ -93,7 +93,7 @@ people:
     carousel-images-count: 9
     large-image-id: 7
     small-image-id: 4
-    quote: "Your Mum and I are very proud of you for all your achievements."
+    quote: "Your Mum and I are very proud of you for all your&nbsp;achievements."
 
   linda-james:
     name: "Linda &amp; James Harvey"
@@ -105,7 +105,7 @@ people:
     carousel-images-count: 11
     large-image-id: 5
     small-image-id: 6
-    quote: "Hope you have a lovely 60th birthday"
+    quote: "Hope you have a lovely 60th&nbsp;birthday"
 
   david-amarjit:
     name: "Dave &amp; Amarjit Morrow"
@@ -116,7 +116,7 @@ people:
     carousel-images-count: 5
     large-image-id: 5
     small-image-id: 3
-    quote: "Thank you for the family leadership - some would call it bossy - but to me leadership comes to mind."
+    quote: "Thank you for the family leadership - some would call it bossy - but to me leadership comes to&nbsp;mind."
 
   harts:
     name: "Emma, Trish and the Harts"
@@ -175,7 +175,7 @@ people:
     carousel-images-count: 12
     large-image-id: 6
     small-image-id: 2
-    quote: "Wishing you the best of birthdays"
+    quote: "Wishing you the best of&nbsp;birthdays"
 
   rudi:
     name: "Rudi Hayward"
@@ -185,7 +185,7 @@ people:
     i-or-we: "I"
     carousel-images-count: 4
     large-image-id: 1
-    quote: "I lick the treats you havva me.&nbsp;Fanks!"
+    quote: "I wuf the treats yoo givva me.&nbsp;Fanks."
 
   kathryn:
     name: "Kathryn Simpson"
